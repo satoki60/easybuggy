@@ -2,7 +2,7 @@ name: Trivy Scan to OWASP Juice shop
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "master"]
 
 jobs:
   build-and-push-image:
